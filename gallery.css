@@ -1,51 +1,5 @@
-body{
-    font-family: Oxanium;
-    background-color: #CEFFF6;
-    margin: 0;
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-}
-.header div{
-    display: flex;
-}
-img.logo, img[src="logo2.png"]{
-    width: 90px;
-    height: 90px;
-    margin: 5px 30px 0 23px;
-}
-header h1, article h2{
-    color: #582215;
-    font-weight: 600;
-}
-.header h1{
-    font-size: 60px;
-    margin: 10px;
-}
-.download{
-    display: flex;
-    align-items: center;
-}
-.download span{
-    color: #523A1E;
-    font-size: 35px;
-    margin: 0 20px;
-    display: inline-block;
-}
+@import url('style.css');
 
-.header .download .logos img{
-    height: 40px;
-    padding: 30px 15px;
-}
-.header .download .logos img:hover{
-    transform: scale(1.2);
-    cursor: pointer;
-}
-.header .download .logos img[src="pc.png"]{
-    height: 55px;
-    padding: 25px 10px 0 5px;
-}
 .menu{
     display: flex;
     justify-content: center;
@@ -60,10 +14,7 @@ header h1, article h2{
     padding:2cqmax 38.5cqmax;
     transition: background-color 0.2s ease-in-out
 }
-.menu div:hover{
-    background-color: #7DF0DC;
-    cursor: pointer;
-}
+
 .gallery {
     display: flex;
     align-items: center;
@@ -115,18 +66,6 @@ header h1, article h2{
     opacity: 1;
 }
 
-footer{
-    display: flex;
-    justify-content: space-between;
-    background-color: #62B9A9;
-    color: white;
-}
-footer div{
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
 footer img[src="logo2.png"]{
     height: max-content;
 }
@@ -135,27 +74,6 @@ footer img[src="logo3.png"]{
     top: 49px;
     left: 23px;
     opacity: 0;
-}
-footer h1{
-    font-size: 80px;
-    margin-top: 50px;
-    font-weight: 600;
-}
-footer p{
-    margin-right: 300px;
-    padding-left: 200px;
-    line-height: 35px;
-    text-align: center;
-    border-left: white 2px solid;
-}
-footer a{
-    text-decoration: none;
-    color: white;
-}
-footer a:hover, footer h1:hover{
-    cursor: pointer;
-    color: #8a2be2;
-    font-weight: 800;
 }
 footer img[src="logo3.png"]:hover{
     opacity: 1;
